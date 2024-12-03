@@ -3,6 +3,7 @@ import slide2 from "../assets/pslide2.png";
 import slide3 from '../assets/pslide1.png'
 import Image from 'next/image';
 import styles from './page.module.css'
+import Home from '@/components/Home';
 // import Products from './products/page';
 
 
@@ -71,8 +72,8 @@ export default function page() {
         </button>
       </div>
     </div>
-    {/* <Products/> */}
-    Products
+    <h2 className='text-center mt-4 pt-4'>Our Products</h2>
+    <Home/>
     </div>
   )
 }
